@@ -1,0 +1,46 @@
+/* Documento estilos css creado por Yesid Rojas*/
+
+html{background-color: #FFCC99;}
+	 .container{ 
+		 width: 98%; 
+		 height: auto; 
+		 padding-top: 2%;
+		 padding-left: 1%;
+	     padding-right: 1%;
+		 padding-bottom: 2%;
+	 }
+	 .container header .logo{ 
+		 width: 40%;
+	     height: auto; 
+		 text-align: left;
+	 }
+	 header{
+		 width: 100%;
+	 }
+	 .alineacion-horizontal{
+		 display: -ms-flexbox;
+         display: flex;
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+	 }
+	 .logo img{ width: 100%;
+	 height: auto;
+	 }
+	 .titulo-principal{
+		 width: 60%;
+	     height: auto;
+		 text-align: center;
+		 margin-top: 5px
+	 }
+     
+	 .titulo-principal h1{
+	     width: 90%;
+		 color: #FFFFFF;
+		 border: #ffffff solid 1px;
+		 padding: 20px;
+	 }
+	 .header-color{ background-color: #669933; 
+	 }
+    .espacios{ margin-top: 30px;
+     }
+

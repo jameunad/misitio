@@ -1,31 +1,78 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta description="Sitio Web ejemplo Sesion 2">
-	<title>Programacion Web 1</title>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<script type="text/javascript" src="js/jquery-1.12"></script>
+<meta charset="utf-8">
+<title>Universidad Nacional</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/menu.css" rel="stylesheet" type="text/css">
+<link href="css/section.css" rel="stylesheet" type="text/css">
+<style>
+	footer{
+		width:100%;
+		height: 150px;
+		background-color: #000000;
+	}
+	footer .logo-footer img{
+		width: 50%;
+		
+	}
+	.fuente-footer{
+		color: aliceblue;
+		
+	}
+	</style>
 </head>
+
 <body>
-	<h1>Programacion Web 1</h1>
-	<p>lorem</p>
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-	<ul>
-		<li>
-			<a href="#">link 1</a>
-		</li>
-		<li>
-			<a href="#">link 2</a>
-		</li>
-	</ul>
-	
-
-</body>
+  <div class="container">
+   <header class="header-color">
+    <div class="alineacion-horizontal">
+     <div class="logo"><img src="img/logoUNAD.png" alt="logo"></div>
+      <div class="titulo-principal">
+       <h1>OVI Programaci&oacute;n WEB 1</h1> 	
+      </div><!--div titulo-principal-->    
+     </div><!--div separador--> 
+    <div class="espacios"></div>  
+   </header>  
+  
+  <nav> <!--Menu-->
+   <ul>
+    	<li><a title="Inicio" href="#">Inicio</a></li>
+    	<li><a title="Introduccion" href="#">Introducci&oacute;n</a></li>
+    	<li><a title="vincularMysql" href="#">Vincular MYSQL</a></li>
+    	<li><a title="instalarPhp" href="#">Instalar PHP</a></li>
+    	<li><a title="ayuda" href="#">Ayuda</a></li>
+   </ul>
+  </nav><!--div nav--> 
+  
+   <div class="espacios"></div>
+   
+   <section>
+   	<article>
+   	 <div class="alineacion-horizontal">
+   	  <img src="img/imagen1-curso.png"  class="caja1" alt="imagen curso1" />
+   	   <h2 class="caja2">Introducci&oacute;n</h2>
+   	  <h2 class="caja3">Secci&oacute;n</h2>
+	 </div>	
+   	</article>
+   	<article>
+   	 <div class="alineacion-horizontal">
+   	  <img src="img/imagen2-curso.png"  class="caja1" alt="imagen curso1" />
+   	   <h2 class="caja2">Introducci&oacute;n</h2>
+   	  
+	 </div>	
+   	</article>
+   </section>
+   
+   <div class="espacios"></div>
+   
+   <footer>
+   	 <div class="alineacion-horizontal">
+      <div class="logo-footer"><img src="img/logoUNAD.png" alt="logo"></div>
+       <p>parrafo1</p>   
+      </div><!--alineacion-horizontal--> 
+     
+   </footer>
+  </div><!--div container--> 
+ </body>
 </html>
